@@ -244,6 +244,10 @@ footer p {
         padding: 0;
     }
 
+    nav {
+        position: relative;   
+     }
+
     #menu-list {
         position: relative;
         padding: 60px;
@@ -273,7 +277,9 @@ footer p {
     }
 
     section {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     section img {
@@ -287,7 +293,13 @@ footer p {
 
     section div p {
         font-size: 20px;
-        text-align: justify;
+        text-align: center;
+    }
+
+    section div a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .projetos h2 {
