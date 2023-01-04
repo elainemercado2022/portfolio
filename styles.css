@@ -250,6 +250,7 @@ footer p {
 
     nav {
         /*position: relative;*/
+            z-index: 1;
     }
 
     #menu-list {
@@ -259,8 +260,13 @@ footer p {
         overflow: hidden;
     }
 
+    .portfolio {
+            margin-left: 35px;
+    }
+
     .menu-icon {
         display: block;
+        margin-left: 123px;
     }
 
     .link-menu {
