@@ -51,7 +51,7 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+.link-menu:hover {
     color: #0033EE;
     transition: 0.5;
 }
